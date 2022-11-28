@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Course</title>
+    <!--add CSS & CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <style>
+        body{
+            background-color: #88d498;
+            color: #3a7563;
+            margin-bottom: 20px;
+        }
+        .heading{
+            text-align: center;
+            font-size: 45px;
+        }
+        .btn{
+            width: 50%;
+            letter-spacing: 2px;
+            align-items: center;
+            border-color: #3a7563;
+            margin-left: 25%;
+        }
+        .btn:hover{
+            color: #b4cd93;
+            background-color: #427a5b;
+            
+        }
+        .col-md-6{
+            padding-left: 250px;
+            padding-right: 200px;
+            padding-top: 70px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+        p{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="heading">Contact US!</h3>
+        <h5 style="text-align: center;">We'll be the therapist for the day</h5>
+        <br> <br> <br>
+            <div class="row">
+                <div class="col">
+                    <div class="d-grid gap-3">
+                        <h4><strong>Fill the form. It's easy</strong></h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I want to register for my child
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I have questions about taking VR therapy sessions
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I want to know more about aversion therapy
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I'm interested in joining EmoPartner as an employee
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I have a global outreach division related question
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="#" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        I want mental health services to be apart of therapy sessions
+                                    </label>
+                                </div>
+                        </div>
+
+                        <div class="form-floating my-3">
+                            <input type="text" class="form-control form-control-sm rounded-3" placeholder="name@example.com" required="">
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+                        <div class="form-floating my-3">
+                            <input type="text" class="form-control form-control-sm rounded-3" placeholder="name@example.com" required="">
+                            <label for="floatingInput">Email Address</label>
+                        </div>
+                        
+                        <div class="my-3">
+                            <label for="textarea" class="form-label"></label>
+                            <textarea class="form-control" rows="5" placeholder="please include as much information as possible..." required=""></textarea>
+                          </div>
+                          <div class="form-check form-switch">
+                            <input type="checkbox" class="form-check-input">
+                            <label class="form-check-label">agree to <a href="#"> Terms of Service</a></label>
+                        </div>
+                        <br>
+                          <button class="btn">Submit</button>
+                        </div>
+
+
+                <div class="col-md-6 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fa-solid fa-location-pin fa-2xl"></i></li><br>
+                            <p><a href="https://www.google.com/maps/place/New+York,+NY,+USA/data=!4m2!3m1!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62?sa=X&ved=2ahUKEwjD5JuonMz7AhVK7HMBHXVcAFkQ8gF6BAgIEAE">Soho 94 Broadway St New York NY 11</a></p>
+                            <br><br>
+                            <li><i class="fa-solid fa-phone fa-2xl"></i></li><br>
+                            <p><a href="tel://60311122988">+6031 112 2988</a></p>
+                            <br><br>
+                            <li><i class="fa-solid fa-fax fa-2xl"></i></li><br>
+                            <p>1-234-567-8900</p>
+                            <p>1-254-851-9575</p>
+                            <br><br>
+                            <li><i class="fa-solid fa-envelope fa-2xl"></i></li><br>
+                            <p>
+                                <a href="#">@ContactEmoPartner</a>
+                            </p>
+                    </ul>
+                </div>
+                
+            </div>
+    </div>
+</body>
+</html>
